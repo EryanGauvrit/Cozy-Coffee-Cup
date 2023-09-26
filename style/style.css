@@ -13,4 +13,10 @@ header {
   justify-content: space-around;
 }
 
+.home-bloc {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /*# sourceMappingURL=style.css.map */
