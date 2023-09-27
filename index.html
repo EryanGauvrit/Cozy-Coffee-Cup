@@ -14,27 +14,42 @@
     <header>
         <h3 class="float-md-start mb-0">Cozy Coffee Cup</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-            <a class="nav-link fw-bold py-1 px-0" href="#">Concept</a>
+            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link fw-bold py-1 px-0" href="#concept">Concept</a>
             <a class="nav-link fw-bold py-1 px-0" href="#">Notre Carte</a> 
             <a class="nav-link fw-bold py-1 px-0" href="#">Nous contacter</a> 
         </nav>
     </header>
     <main>
-        <div class="d-flex w-100  p-3 m-auto flex-column home-bloc" style="background-image: url('assets/main-bg.jpg');">
-            <div class="px-3 h-100">
+        <div class="d-flex w-100  p-3 m-auto flex-column bg-img" style="background-image: url('assets/main-bg.jpg');">
+            <div class="cover-container m-auto px-3 h-100 home-bloc" id="home">
                 <div>
                     <h1>Cozy Coffee Cup - Annecy</h1>
                     <img src="./public/logo.png" alt="Cozy Coffee Cup" />
                 </div>
                 <p class="lead">Embrace the Warmth of Cozy Caffe Cup – Where Every Sip Feels Like a Hug.</p>
             </div>
-            <div class="px-3 h-100">
-                <div>
-                    <h1>Cozy Coffee Cup - Annecy</h1>
-                    <img src="./public/logo.png" alt="Cozy Coffee Cup" />
+            <div class=" m-auto px-3 h-100 d-flex flex-column concept-bloc" id="concept">
+                <p class="quote">
+                    L'enseigne "Cozy Cup Cafe" vise à créer une atmosphère chaleureuse, à offrir des produits de haute qualité pour un public aisé, tout en s'engageant activement au sein de sa communauté locale.
+                </p>
+                <div class="row">
+                    <div class="col-lg-4 d-flex flex-column card-concept">
+                        <img class="rounded-circle" width="140" height="140" src="assets/concept_1.jpg" alt="Ambiance Accueillante" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                        <h2 class="fw-normal">Ambiance Accueillante</h2>
+                        <p>Créez un espace confortable et convivial pour que les clients se sentent chez eux.</p>
+                    </div>
+                    <div class="col-lg-4 d-flex flex-column card-concept">
+                        <img class="rounded-circle" width="140" height="140" src="assets/concept_2.jpg" alt="Produits de Qualité" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                        <h2 class="fw-normal">Produits de Qualité</h2>
+                        <p>Servez du café de première qualité, des pâtisseries artisanales et des boissons exceptionnelles.</p>
+                    </div>
+                    <div class="col-lg-4 d-flex flex-column card-concept">
+                        <img class="rounded-circle" width="140" height="140" src="assets/concept_3.jpg" alt="Programme de Dégustation et d'Éducation au Café" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                        <h2 class="fw-normal">Programme de Dégustation et d'Éducation au Café</h2>
+                        <p>Le Cozy Coffee Cup pourrait offrir des dégustations de café et des ateliers éducatifs pour enrichir l'expérience des clients et les éduquer sur le café.</p>
+                    </div>
                 </div>
-                <p class="lead">Embrace the Warmth of Cozy Caffe Cup – Where Every Sip Feels Like a Hug.</p>
             </div>
         </div>
     </main>

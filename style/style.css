@@ -2,21 +2,72 @@
   height: 100vh !important;
 }
 
-.cover-container {
-  max-width: 45em;
-}
-
 header {
   position: fixed;
   width: 100%;
   display: flex;
   justify-content: space-around;
+  z-index: 9999;
 }
 
-.home-bloc {
+.bg-img {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.home-bloc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.home-bloc div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: -50%;
+}
+.home-bloc div img {
+  width: 120px;
+  height: 120px;
+  rotate: 15deg;
+}
+.home-bloc div h1 {
+  text-align: start;
+  font-size: 26px;
+  font-weight: 300;
+}
+.home-bloc p {
+  text-align: start;
+  width: 70%;
+  align-self: flex-start;
+}
+
+.concept-bloc {
+  max-width: 55em;
+  justify-content: center;
+  gap: 10em;
+}
+.concept-bloc .quote {
+  max-width: 70%;
+  text-align: start;
+  margin: 0 auto;
+}
+
+.card-concept {
+  gap: 25px;
+  align-items: center;
+}
+.card-concept img {
+  object-fit: cover;
+  object-position: center;
+}
+.card-concept h2 {
+  font-size: 22px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,13 +2,10 @@
     height: 100vh!important;
 }
 
-.cover-container {
-    max-width: 45em;
-}
-
 header{
     position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-around;
+    z-index: 9999;
 }
