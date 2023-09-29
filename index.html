@@ -11,7 +11,7 @@
     <title>Cozy Coffee Cup</title>
 </head>
 <body class="text-center text-bg-dark">
-    <header>
+    <header class="py-3 shadow-md shadow-">
         <h3 class="float-md-start mb-0"><a class="nav-link" href="#home">Cozy Coffee Cup</a></h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
             <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#home">Home</a>
@@ -21,23 +21,23 @@
         </nav>
     </header>
     <main>
-        <div class="d-flex w-100 m-0 flex-column bg-img" style="background-image: url('assets/main-bg.jpg');">
-            <div class="cover-container m-auto px-3 home-bloc d-flex justify-content-around align-items-center" id="home">
-                <div class="row justify-content-around">
-                    <div class="col-8 d-flex flex-column justify-content-between">
+        <section class="d-flex w-100 m-0 flex-column bg-img pt-md-0 pt-5" style="background-image: url('assets/main-bg.jpg');">
+            <article class="cover-container m-auto px-3 home-bloc d-flex justify-content-around align-items-center pt-md-0 pt-3" id="home">
+                <div class="row justify-content-around-md">
+                    <div class="col-md-8 col-12 d-flex flex-column justify-content-between">
                         <h1 class="fs-2 mb-4">Embrace the Warmth of Cozy Caffe Cup – Where Every Sip Feels Like a Hug.</h1>
                         <p class="fs-5 opacity-75 m-0">Le Cozy Cup Cafe offre une expérience café exceptionnelle, alliant une ambiance chaleureuse et des produits de qualité supérieure. Nous servons des cafés de spécialité et des pâtisseries artisanales dans un cadre accueillant. Notre café organise également des événements et des ateliers éducatifs sur le café. Venez vous détendre, découvrir et vous impliquer au Cozy Cup Cafe</p>
                     </div>
-                    <div class="col-4 img-bloc d-flex flex-column justify-content-between align-items-end">
+                    <div class="col-md-4 col-12 img-bloc d-flex flex-md-column flex-row justify-content-between align-items-end order-md-last order-first mb-md-0 mb-5 mt-md-0 mt-3">
                         <img src="./public/logo.png" alt="Cozy Coffee Cup" />
-                        <div class="text-end">
+                        <div class="text-end d-flex flex-column">
                             <a href="#products" class="btn btn-light w-40 text-uppercase mb-3 fw-bold">Notre sélection</a>
                             <a href="#form-contact" class="btn btn-light w-40 text-uppercase fw-bold">Nous recrutons !</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class=" m-auto px-3 d-flex flex-column justify-content-center concept-bloc" id="concept">
+            </article>
+            <article class=" m-md-auto pt-md-0 pt-5 px-3 d-flex flex-column justify-content-center concept-bloc" id="concept">
                 <p class="quote fs-5 fw-bold mb-5">
                     L'enseigne "Cozy Cup Cafe" vise à créer une atmosphère chaleureuse, à offrir des produits de haute qualité pour un public aisé, tout en s'engageant activement au sein de sa communauté locale.
                 </p>
@@ -45,25 +45,25 @@
                     <div class="col-lg-4 d-flex flex-column align-items-center card-concept">
                         <img class="rounded-circle mb-3" width="140" height="140" src="assets/concept_1.jpg" alt="Ambiance Accueillante" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" />
                         <h2 class="fw-normal">Ambiance Accueillante</h2>
-                        <p class="opacity-75">Créez un espace confortable et convivial pour que les clients se sentent chez eux.</p>
+                        <p class="opacity-75 w-md-100 w-75">Créez un espace confortable et convivial pour que les clients se sentent chez eux.</p>
                     </div>
                     <div class="col-lg-4 d-flex flex-column align-items-center card-concept">
                         <img class="rounded-circle mb-3" width="140" height="140" src="assets/concept_2.jpg" alt="Produits de Qualité" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" />
                         <h2 class="fw-normal">Produits de Qualité</h2>
-                        <p class="opacity-75">Servez du café de première qualité, des pâtisseries artisanales et des boissons exceptionnelles.</p>
+                        <p class="opacity-75 w-md-100 w-75">Servez du café de première qualité, des pâtisseries artisanales et des boissons exceptionnelles.</p>
                     </div>
                     <div class="col-lg-4 d-flex flex-column align-items-center card-concept">
                         <img class="rounded-circle mb-3" width="140" height="140" src="assets/concept_3.jpg" alt="Programme de Dégustation et d'Éducation au Café" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" />
                         <h2 class="fw-normal ">Programme de Dégustation et d'Éducation au Café</h2>
-                        <p class="opacity-75">Le Cozy Coffee Cup pourrait offrir des dégustations de café et des ateliers éducatifs pour enrichir l'expérience des clients et les éduquer sur le café.</p>
+                        <p class="opacity-75 w-md-100 w-75">Le Cozy Coffee Cup pourrait offrir des dégustations de café et des ateliers éducatifs pour enrichir l'expérience des clients et les éduquer sur le café.</p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="d-flex w-100 m-0 flex-column bg-img bg-img-filter products-bloc" style="background-image: url('assets/menu-bg.jpg');" id="products">
+            </article>
+        </section>
+        <section class="d-flex w-100 m-0 flex-column bg-img bg-img-filter products-bloc" style="background-image: url('assets/menu-bg.jpg');" id="products">
             <div class="cover-container m-auto d-flex flex-column justify-content-center mb-5">
                 <h2 class="mt-5 mb-5" >Nos créations du moment</h2>
-                <div class="row justify-content-center gap-4">
+                <div class="row justify-content-center gap-4 products-bloc-list ">
                     <div class="col-6 card p-0 border-0 text-light" style="width: 22rem;">
                         <img src="./assets/coffee_1.jpg" class="card-img-top" alt="coffee_1">
                         <div class="card-body d-flex flex-column justify-content-between">
@@ -114,10 +114,10 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="d-flex w-100 m-0 flex-column bg-img bg-img-filter contact-bloc" style="background-image: url('assets/contact-bg.jpg');" id="contact">
+        </section>
+        <section class="d-flex w-100 m-0 flex-column bg-img bg-img-filter contact-bloc" style="background-image: url('assets/contact-bg.jpg');" id="contact">
             <div class="cover-container m-auto d-flex flex-column justify-content-center mb-3 w-100">
-                <div class="d-flex flex-column align-items-end w-100 mb-5 mt-5">
+                <div class="d-flex flex-column align-items-end w-100 mb-5 mt-5 pe-md-0 pe-5">
                     <h2 class="mb-4">Retrouvez nous sur place</h2>
                     <div class="mb-3 text-end">
                         <address class="mb-0">1, Place de la mairie à Annecy</address>
@@ -161,37 +161,37 @@
                     <h2 class="mb-5">Nous rejoindre ?</h2>
                     <form>
                         <div class="mb-3 d-flex align-items-baseline justify-content-between">
-                            <label for="nameInput" class="form-label me-2 fs-5 fw-bold">Nom</label>
+                            <label for="nameInput" class="form-label me-2 fs-md-5 fw-bold">Nom</label>
                             <input type="text" class="form-control" id="nameInput" placeholder="Nom">
                         </div>
                         <div class="mb-3 d-flex align-items-baseline justify-content-between">
-                            <label for="firstNameInput" class="form-label me-2 fs-5 fw-bold">Prénom</label>
+                            <label for="firstNameInput" class="form-label me-2 fs-md-5 fw-bold">Prénom</label>
                             <input type="email" class="form-control" id="firstNameInput" placeholder="Prénom">
                         </div>
                         <div class="mb-3 d-flex align-items-baseline justify-content-between">
-                            <label for="emailInput" class="form-label me-2 fs-5 fw-bold">Email</label>
+                            <label for="emailInput" class="form-label me-2 fs-md-5 fw-bold">Email</label>
                             <input type="email" class="form-control" id="emailInput" placeholder="email@example.com">
                         </div>
                         <div class=" d-flex align-items-baseline justify-content-between gap-3">
-                            <div class="mb-3 ">
-                                <label for="cvInput" class="form-label fs-6 fw-bold">Votre CV</label>
-                                <input type="file" class="form-control input-file" id="cvInput">
+                            <div class="mb-3">
+                                <label for="cvInput" class="form-label fs-md-6 fw-bold">Votre CV</label>
+                                <input type="file" class="form-control input-file m-auto" id="cvInput">
                             </div>
                             <div class="mb-3">
-                                <label for="motivLetterInput" class="form-label fs-6 fw-bold">Votre lettre de motivation</label>
-                                <input type="file" class="form-control input-file" id="motivLetterInput">
+                                <label for="motivLetterInput" class="form-label fs-md-6 fw-bold">Votre lettre de motivation</label>
+                                <input type="file" class="form-control input-file m-auto" id="motivLetterInput">
                             </div>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label fs-5 fw-bold">Entrer votre message</label>
+                            <label for="exampleFormControlTextarea1" class="form-label fs-md-5 fw-bold">Entrer votre message</label>
                             <textarea class="form-control input-textarea" id="exampleFormControlTextarea1" rows="3" placeholder="Mon message est ..."></textarea>
                         </div>
                     </form>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        </section>
+        <footer class="container">
+            <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
               <div class="col-md-4 d-flex align-items-center img-bloc">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-decoration-none lh-1">
                   <img src="./public/logo.png" alt="Cozy Coffee Cup" />
@@ -204,8 +204,8 @@
                 <li class="ms-3"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="white" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z"/></svg></a></li>
                 <li class="ms-3"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="white" d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6c0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64c0 3.33 2.76 5.7 5.69 5.7c3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48z"/></svg></a></li>
               </ul>
-            </footer>
-          </div>
+            </div>
+        </footer>
     </main>    
 </body>
 </html>

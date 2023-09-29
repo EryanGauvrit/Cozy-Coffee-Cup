@@ -1,6 +1,6 @@
 .concept-bloc {
     max-width: 55em;
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgba($color: white, $alpha: .2);
     & .quote {
         max-width: 70%;

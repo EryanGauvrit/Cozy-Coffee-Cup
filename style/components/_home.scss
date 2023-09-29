@@ -8,15 +8,20 @@
     background-blend-mode: darken;
 }
 .home-bloc{
-    height: 100vh;
+    min-height: 100vh;
     text-align: start;
 }
 .img-bloc {
     img {
         width: 90px;
         height: 90px;
-        rotate: 15deg;
+        rotate: -15deg;        
         object-fit: cover;
         object-position: center;
+    }
+    @include  media-breakpoint-down(md) {
+        img {
+            rotate: 15deg;        
+        }
     }
 }

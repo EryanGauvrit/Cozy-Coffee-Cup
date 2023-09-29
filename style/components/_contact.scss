@@ -17,3 +17,19 @@
         }
     }
 }
+
+@include  media-breakpoint-down(md) {
+    .form-bloc {
+            form {
+            .form-control {
+                max-width: 15rem;
+            }    
+            .input-file {
+                max-width: 8rem;
+            }
+            .input-textarea {
+                max-width: none;
+            }
+        }   
+    }
+}

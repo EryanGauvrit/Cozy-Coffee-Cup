@@ -4,5 +4,13 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap:  0 2rem;
     z-index: 9999;
+}
+
+@include  media-breakpoint-down(md) {
+    header {
+        background-color: $dark;
+    }
 }
