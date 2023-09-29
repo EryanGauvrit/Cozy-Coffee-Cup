@@ -1,8 +1,5 @@
 .products-bloc{
     min-height: 100vh;
-    .products-bloc-list {
-        // width: auto;
-    }
     @include  media-breakpoint-down(md) {
         .products-bloc-list {
             width: 100%;
