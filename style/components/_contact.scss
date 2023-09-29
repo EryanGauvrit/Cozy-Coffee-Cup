@@ -5,8 +5,15 @@
 .form-bloc {
     background-color: $bg-transparent;
     form {
+        max-width: 25rem;
         .form-control {
-            max-width: 15rem;
+            max-width: 18rem;
+        }
+        .input-file {
+            max-width: none;
+        }
+        .input-textarea {
+            max-width: none;
         }
     }
 }

@@ -12,7 +12,7 @@
 </head>
 <body class="text-center text-bg-dark">
     <header>
-        <h3 class="float-md-start mb-0">Cozy Coffee Cup</h3>
+        <h3 class="float-md-start mb-0"><a class="nav-link" href="#home">Cozy Coffee Cup</a></h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
             <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#home">Home</a>
             <a class="nav-link fw-bold py-1 px-0" href="#concept">Concept</a>
@@ -127,32 +127,32 @@
                     <table class="table table-borderless w-auto">
                         <tbody>
                           <tr>
-                            <th class="bg-transparent text-light text-start">Lundi</th>
-                            <td class="bg-transparent text-light text-start">Fermé</td>
+                            <th class="bg-transparent text-light text-start p-1">Lundi</th>
+                            <td class="bg-transparent text-light text-start p-1">Fermé</td>
                           </tr>
                           <tr>
-                            <th class="bg-transparent text-light text-start">Mardi</th>
-                            <td class="bg-transparent text-light text-start">Fermé</td>
+                            <th class="bg-transparent text-light text-start p-1">Mardi</th>
+                            <td class="bg-transparent text-light text-start p-1">Fermé</td>
                           </tr>
                           <tr>
-                            <th class="bg-transparent text-light text-start">Mercredi</th>
-                            <td class="bg-transparent text-light text-start">7h - 17h</td>
+                            <th class="bg-transparent text-light text-start p-1">Mercredi</th>
+                            <td class="bg-transparent text-light text-start p-1">7h - 17h</td>
                           </tr>
                           <tr>
-                            <th class="bg-transparent text-light text-start">Jeudi</th>
-                            <td class="bg-transparent text-light text-start">7h - 17h</td>
+                            <th class="bg-transparent text-light text-start p-1">Jeudi</th>
+                            <td class="bg-transparent text-light text-start p-1">7h - 17h</td>
                           </tr>
                           <tr>
-                            <th class="bg-transparent text-light text-start">Vendredi</th>
-                            <td class="bg-transparent text-light text-start">7h - 17h</td>
+                            <th class="bg-transparent text-light text-start p-1">Vendredi</th>
+                            <td class="bg-transparent text-light text-start p-1">7h - 17h</td>
                           </tr>
                           <tr>
-                            <th class="bg-transparent text-light text-start">Samedi</th>
-                            <td class="bg-transparent text-light text-start">8h30 - 18h</td>
+                            <th class="bg-transparent text-light text-start p-1">Samedi</th>
+                            <td class="bg-transparent text-light text-start p-1">8h30 - 18h</td>
                           </tr>
                           <tr>
-                            <th class="bg-transparent text-light text-start">Dimanche</th>
-                            <td class="bg-transparent text-light text-start">8h30 - 18h</td>
+                            <th class="bg-transparent text-light text-start p-1">Dimanche</th>
+                            <td class="bg-transparent text-light text-start p-1">8h30 - 18h</td>
                           </tr>
                         </tbody>
                     </table>
@@ -160,37 +160,36 @@
                 <div class="p-4 form-bloc d-flex flex-column justify-content-center align-items-center">
                     <h2 class="mb-5">Nous rejoindre ?</h2>
                     <form class="">
-                        <div class="mb-3 d-flex align-items-baseline">
-                            <label for="nameInput" class="form-label me-2">Nom</label>
+                        <div class="mb-3 d-flex align-items-baseline justify-content-between">
+                            <label for="nameInput" class="form-label me-2 fs-5 fw-bold">Nom</label>
                             <input type="text" class="form-control" id="nameInput" placeholder="Nom">
                         </div>
-                        <div class="mb-3 d-flex align-items-baseline">
-                            <label for="firstNameInput" class="form-label me-2">Prénom</label>
+                        <div class="mb-3 d-flex align-items-baseline justify-content-between">
+                            <label for="firstNameInput" class="form-label me-2 fs-5 fw-bold">Prénom</label>
                             <input type="email" class="form-control" id="firstNameInput" placeholder="Prénom">
                         </div>
-                        <div class="mb-3 d-flex align-items-baseline">
-                            <label for="emailInput" class="form-label me-2">Email</label>
+                        <div class="mb-3 d-flex align-items-baseline justify-content-between">
+                            <label for="emailInput" class="form-label me-2 fs-5 fw-bold">Email</label>
                             <input type="email" class="form-control" id="emailInput" placeholder="email@example.com">
                         </div>
-                        <div class="d-flex align-items-baseline">
+                        <div class=" d-flex align-items-baseline justify-content-between gap-3">
                             <div class="mb-3 ">
-                                <label for="cvInput" class="form-label">Votre CV</label>
-                                <input type="file" class="form-control" id="cvInput">
+                                <label for="cvInput" class="form-label fs-5 fw-bold">Votre CV</label>
+                                <input type="file" class="form-control input-file" id="cvInput">
                             </div>
                             <div class="mb-3">
-                                <label for="motivLetterInput" class="form-label">Votre lettre de motivation</label>
-                                <input type="file" class="form-control" id="motivLetterInput">
+                                <label for="motivLetterInput" class="form-label fs-5 fw-bold">Votre lettre de motivation</label>
+                                <input type="file" class="form-control input-file" id="motivLetterInput">
                             </div>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Entrer votre message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Mon message est ...</textarea>
+                            <label for="exampleFormControlTextarea1" class="form-label fs-5 fw-bold">Entrer votre message</label>
+                            <textarea class="form-control input-textarea" id="exampleFormControlTextarea1" rows="3">Mon message est ...</textarea>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-    </main>
-    
+    </main>    
 </body>
 </html>
