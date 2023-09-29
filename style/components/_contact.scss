@@ -1,0 +1,12 @@
+.contact-bloc {
+    min-height: 100vh;
+}
+
+.form-bloc {
+    background-color: $bg-transparent;
+    form {
+        .form-control {
+            max-width: 15rem;
+        }
+    }
+}

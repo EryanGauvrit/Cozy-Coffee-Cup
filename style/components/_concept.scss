@@ -1,17 +1,14 @@
 .concept-bloc {
     max-width: 55em;
-    justify-content: center;
-    gap: 10em;
+    height: 100vh;
+    background-color: rgba($color: white, $alpha: .2);
     & .quote {
         max-width: 70%;
-        text-align: start;
         margin: 0 auto;
     }
 }
 
 .card-concept {
-    gap: 25px;
-    align-items: center;
     img {
         object-fit: cover;
         object-position: center;

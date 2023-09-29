@@ -16,45 +16,181 @@
         <nav class="nav nav-masthead justify-content-center float-md-end">
             <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#home">Home</a>
             <a class="nav-link fw-bold py-1 px-0" href="#concept">Concept</a>
-            <a class="nav-link fw-bold py-1 px-0" href="#">Notre Carte</a> 
-            <a class="nav-link fw-bold py-1 px-0" href="#">Nous contacter</a> 
+            <a class="nav-link fw-bold py-1 px-0" href="#products">Notre Carte</a> 
+            <a class="nav-link fw-bold py-1 px-0" href="#contact">Nous contacter</a> 
         </nav>
     </header>
     <main>
-        <div class="d-flex w-100  p-3 m-auto flex-column bg-img" style="background-image: url('assets/main-bg.jpg');">
-            <div class="cover-container m-auto px-3 h-100 home-bloc" id="home">
-                <div>
-                    <h1>Cozy Coffee Cup - Annecy</h1>
-                    <img src="./public/logo.png" alt="Cozy Coffee Cup" />
+        <div class="d-flex w-100 m-0 flex-column bg-img" style="background-image: url('assets/main-bg.jpg');">
+            <div class="cover-container m-auto px-3 home-bloc d-flex justify-content-around align-items-center" id="home">
+                <div class="row justify-content-around">
+                    <div class="col-8 d-flex flex-column justify-content-between">
+                        <h1 class="fs-2 mb-4">Embrace the Warmth of Cozy Caffe Cup – Where Every Sip Feels Like a Hug.</h1>
+                        <p class="fs-5 opacity-75 m-0">Le Cozy Cup Cafe offre une expérience café exceptionnelle, alliant une ambiance chaleureuse et des produits de qualité supérieure. Nous servons des cafés de spécialité et des pâtisseries artisanales dans un cadre accueillant. Notre café organise également des événements et des ateliers éducatifs sur le café. Venez vous détendre, découvrir et vous impliquer au Cozy Cup Cafe</p>
+                    </div>
+                    <div class="col-4 img-bloc d-flex flex-column justify-content-between align-items-end">
+                        <img src="./public/logo.png" alt="Cozy Coffee Cup" />
+                        <div class="text-end">
+                            <a href="#products" class="btn btn-light w-40 text-uppercase mb-3 fw-bold">Notre sélection</a>
+                            <a href="#contact" class="btn btn-light w-40 text-uppercase fw-bold">Nous recrutons !</a>
+                        </div>
+                    </div>
                 </div>
-                <p class="lead">Embrace the Warmth of Cozy Caffe Cup – Where Every Sip Feels Like a Hug.</p>
             </div>
-            <div class=" m-auto px-3 h-100 d-flex flex-column concept-bloc" id="concept">
-                <p class="quote">
+            <div class=" m-auto px-3 d-flex flex-column justify-content-center concept-bloc" id="concept">
+                <p class="quote fs-5 fw-bold mb-5">
                     L'enseigne "Cozy Cup Cafe" vise à créer une atmosphère chaleureuse, à offrir des produits de haute qualité pour un public aisé, tout en s'engageant activement au sein de sa communauté locale.
                 </p>
                 <div class="row">
-                    <div class="col-lg-4 d-flex flex-column card-concept">
-                        <img class="rounded-circle" width="140" height="140" src="assets/concept_1.jpg" alt="Ambiance Accueillante" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                    <div class="col-lg-4 d-flex flex-column align-items-center card-concept">
+                        <img class="rounded-circle mb-3" width="140" height="140" src="assets/concept_1.jpg" alt="Ambiance Accueillante" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" />
                         <h2 class="fw-normal">Ambiance Accueillante</h2>
-                        <p>Créez un espace confortable et convivial pour que les clients se sentent chez eux.</p>
+                        <p class="opacity-75">Créez un espace confortable et convivial pour que les clients se sentent chez eux.</p>
                     </div>
-                    <div class="col-lg-4 d-flex flex-column card-concept">
-                        <img class="rounded-circle" width="140" height="140" src="assets/concept_2.jpg" alt="Produits de Qualité" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                    <div class="col-lg-4 d-flex flex-column align-items-center card-concept">
+                        <img class="rounded-circle mb-3" width="140" height="140" src="assets/concept_2.jpg" alt="Produits de Qualité" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" />
                         <h2 class="fw-normal">Produits de Qualité</h2>
-                        <p>Servez du café de première qualité, des pâtisseries artisanales et des boissons exceptionnelles.</p>
+                        <p class="opacity-75">Servez du café de première qualité, des pâtisseries artisanales et des boissons exceptionnelles.</p>
                     </div>
-                    <div class="col-lg-4 d-flex flex-column card-concept">
-                        <img class="rounded-circle" width="140" height="140" src="assets/concept_3.jpg" alt="Programme de Dégustation et d'Éducation au Café" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" />
-                        <h2 class="fw-normal">Programme de Dégustation et d'Éducation au Café</h2>
-                        <p>Le Cozy Coffee Cup pourrait offrir des dégustations de café et des ateliers éducatifs pour enrichir l'expérience des clients et les éduquer sur le café.</p>
+                    <div class="col-lg-4 d-flex flex-column align-items-center card-concept">
+                        <img class="rounded-circle mb-3" width="140" height="140" src="assets/concept_3.jpg" alt="Programme de Dégustation et d'Éducation au Café" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                        <h2 class="fw-normal ">Programme de Dégustation et d'Éducation au Café</h2>
+                        <p class="opacity-75">Le Cozy Coffee Cup pourrait offrir des dégustations de café et des ateliers éducatifs pour enrichir l'expérience des clients et les éduquer sur le café.</p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex w-100 m-0 flex-column bg-img bg-img-filter products-bloc" style="background-image: url('assets/menu-bg.jpg');" id="products">
+            <div class="cover-container m-auto d-flex flex-column justify-content-center mb-5">
+                <h2 class="mt-5 mb-5" >Nos créations du moment</h2>
+                <div class="row justify-content-center gap-4">
+                    <div class="col-6 card p-0 border-0 text-light" style="width: 22rem;">
+                        <img src="./assets/coffee_1.jpg" class="card-img-top" alt="coffee_1">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div>
+                                <h5 class="card-title">Luxe Latte</h5>
+                                <p class="card-text">Une fusion parfaite de café velouté, de lait d'amande frais et d'une touche subtile de truffe blanche. Une expérience exquise pour les amateurs de café qui apprécient la sophistication et le raffinement.</p>
+                            </div>
+                            <div>
+                                <a href="#" class="btn btn-light">En savoir plus </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 card p-0 border-0 text-light" style="width: 22rem;">
+                        <img src="./assets/coffee_2.jpg" class="card-img-top" alt="coffee_1">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="mb-3">
+                                <h5 class="card-title">Artisan Espresso Royal</h5>
+                                <p class="card-text"> L'Artisan Espresso Royal est une création unique, préparée avec des grains de café d'exception, infusés à la perfection pour créer une base intense. Garni d'une mousse de crème brûlée à la vanille de Madagascar et saupoudré de pépites de chocolat noir 70%, chaque gorgée est un voyage de saveurs somptueuses.</p>
+                            </div>
+                            <div>
+                                <a href="#" class="btn btn-light">En savoir plus </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 card p-0 border-0 text-light" style="width: 22rem;">
+                        <img src="./assets/coffee_3.jpg" class="card-img-top" alt="coffee_1">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="mb-3">
+                                <h5 class="card-title">Thé Blanc Prestige</h5>
+                                <p class="card-text">Le Thé Blanc Prestige offre une expérience de thé rare et délicate. Nos feuilles de thé blanc cueillies à la main sont associées à des fleurs de jasmin fraîchement cueillies, créant une infusion légère et parfumée, servie avec une cuillère en argent et des mignardises faites maison.</p>
+                            </div>
+                            <div>
+                                <a href="#" class="btn btn-light">En savoir plus </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 card p-0 border-0 text-light" style="width: 22rem;">
+                        <img src="./assets/coffee_4.jpg" class="card-img-top" alt="coffee_1">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="mb-3">
+                                <h5 class="card-title">Affogato à la Truffe Noire</h5>
+                                <p class="card-text">L'Affogato à la Truffe Noire est une création audacieuse, associant une boule de glace à la vanille artisanale à un espresso corsé infusé de véritable truffe noire. Chaque cuillère de cette décadence est une fusion d'arômes riches et inattendus pour satisfaire les palais les plus exigeants.</p>
+                            </div>
+                            <div>
+                                <a href="#" class="btn btn-light">En savoir plus </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex w-100 m-0 flex-column bg-img bg-img-filter contact-bloc" style="background-image: url('assets/contact-bg.jpg');" id="contact">
+            <div class="cover-container m-auto d-flex flex-column justify-content-center mb-5 w-100">
+                <div class="d-flex flex-column align-items-end w-100 mb-5 mt-5">
+                    <h2 class="mb-4">Retrouvez nous sur place</h2>
+                    <div class="mb-3 text-end">
+                        <address class="mb-0">1, Place de la mairie à Annecy</address>
+                        <p class="mb-0">tel : 01.01.01.01.01</p>
+                        <p>email : contact@cozycupcoffee.com</p>
+                    </div>
+                    <table class="table table-borderless w-auto">
+                        <tbody>
+                          <tr>
+                            <th class="bg-transparent text-light text-start">Lundi</th>
+                            <td class="bg-transparent text-light text-start">Fermé</td>
+                          </tr>
+                          <tr>
+                            <th class="bg-transparent text-light text-start">Mardi</th>
+                            <td class="bg-transparent text-light text-start">Fermé</td>
+                          </tr>
+                          <tr>
+                            <th class="bg-transparent text-light text-start">Mercredi</th>
+                            <td class="bg-transparent text-light text-start">7h - 17h</td>
+                          </tr>
+                          <tr>
+                            <th class="bg-transparent text-light text-start">Jeudi</th>
+                            <td class="bg-transparent text-light text-start">7h - 17h</td>
+                          </tr>
+                          <tr>
+                            <th class="bg-transparent text-light text-start">Vendredi</th>
+                            <td class="bg-transparent text-light text-start">7h - 17h</td>
+                          </tr>
+                          <tr>
+                            <th class="bg-transparent text-light text-start">Samedi</th>
+                            <td class="bg-transparent text-light text-start">8h30 - 18h</td>
+                          </tr>
+                          <tr>
+                            <th class="bg-transparent text-light text-start">Dimanche</th>
+                            <td class="bg-transparent text-light text-start">8h30 - 18h</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="p-4 form-bloc d-flex flex-column justify-content-center align-items-center">
+                    <h2 class="mb-5">Nous rejoindre ?</h2>
+                    <form class="">
+                        <div class="mb-3 d-flex align-items-baseline">
+                            <label for="nameInput" class="form-label me-2">Nom</label>
+                            <input type="text" class="form-control" id="nameInput" placeholder="Nom">
+                        </div>
+                        <div class="mb-3 d-flex align-items-baseline">
+                            <label for="firstNameInput" class="form-label me-2">Prénom</label>
+                            <input type="email" class="form-control" id="firstNameInput" placeholder="Prénom">
+                        </div>
+                        <div class="mb-3 d-flex align-items-baseline">
+                            <label for="emailInput" class="form-label me-2">Email</label>
+                            <input type="email" class="form-control" id="emailInput" placeholder="email@example.com">
+                        </div>
+                        <div class="d-flex align-items-baseline">
+                            <div class="mb-3 ">
+                                <label for="cvInput" class="form-label">Votre CV</label>
+                                <input type="file" class="form-control" id="cvInput">
+                            </div>
+                            <div class="mb-3">
+                                <label for="motivLetterInput" class="form-label">Votre lettre de motivation</label>
+                                <input type="file" class="form-control" id="motivLetterInput">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Entrer votre message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Mon message est ...</textarea>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </main>
     
 </body>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </html>

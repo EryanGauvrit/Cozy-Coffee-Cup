@@ -3,33 +3,20 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.bg-img-filter {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
 .home-bloc{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-    & div {
-        width: 100%;
-        display: flex;
-        justify-content: space-between ;
-        align-items: center;
-        gap: 50px;
-        margin-top: -50%;
-        img {
-            width: 120px;
-            height: 120px;
-            rotate: 15deg;
-        }
-        h1 {
-            text-align: start;
-            font-size: 26px;
-            font-weight: 300;
-        }
-    }
-    & p{
-        text-align: start;
-        width: 70%;
-        align-self: flex-start;
+    height: 100vh;
+    text-align: start;
+}
+.img-bloc {
+    img {
+        width: 90px;
+        height: 90px;
+        rotate: 15deg;
+        object-fit: cover;
+        object-position: center;
     }
 }

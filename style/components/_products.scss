@@ -1,0 +1,11 @@
+.products-bloc{
+    min-height: 100vh;
+    .card {
+        background-color: $bg-transparent;
+        img {
+            height: 230px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
